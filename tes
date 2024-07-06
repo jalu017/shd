@@ -68,7 +68,7 @@ services:
           --boot-nodes=/ip4/172.22.0.100/tcp/9010/p2p/12D3KooWFAHjfRjUQ6R2KpkirdYNAYpunfZSjeca4ArBwobyb3RT \
           --topic=allora-topic-1-worker \
           --allora-chain-key-name=testkey \
-          --allora-chain-restore-mnemonic='catalog random cement detect champion muffin culture track fly among evil degree' \
+          --allora-chain-restore-mnemonic='' \
           --allora-node-rpc-address=https://allora-rpc.edgenet.allora.network/ \
           --allora-chain-topic-id=1
     volumes:
